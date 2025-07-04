@@ -1,0 +1,8 @@
+header:
+  version: 15
+repos:
+
+  meta-imdt-imx:
+      url: https://github.com/imd-tec/meta-imdt-imx.git
+      commit: 7a68d1fcf59bd4d5fa3bf318ae1cd86250b240d5
+      path: sources/meta-imdt-imx
