@@ -36,7 +36,6 @@ repos:
     commit: b9d6a5d9931922558046d230c1f5f4ef6ee72345
     path: sources/meta-freescale-distro
 
-
   meta-imx:
     url: https://github.com/nxp-imx/meta-imx.git
     commit: 013670cd6a6a7363d824b33816e87a520745bca4
@@ -55,11 +54,6 @@ repos:
     url: https://github.com/meta-qt5/meta-qt5.git
     commit: eb828418264a49b8d00035cb3d7b12fcea3be801
     path: sources/meta-qt5
-
-  meta-swupdate:
-    url: https://github.com/sbabic/meta-swupdate.git
-    commit: d598d4e675b541301ea1dfc8f0c8931983b4dcd0
-    path: sources/meta-swupdate
 
   meta-arm:
     url: https://git.yoctoproject.org/git/meta-arm

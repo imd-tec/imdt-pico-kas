@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/downloads": true,
+			"**/sstate-cache": true,
+			"**/cache": true,
+			"**/tmp/sstate*": true,
+			"**/tmp/cache": true,
+			"**/tmp/stamps": true,
+			"**/tmp/log": true,
+			"**/tmp/hosttools": true,
+			"**/tmp/buildstats": true,
+			"**/tmp/sysroots-components": true,
+		},
+		"search.exclude": {
+			"**/.git": true,
+			"**/.repo": true,
+			"**/downloads": true,
+			"**/sstate-cache": true,
+			"**/cache": true,
+			"**/tmp": true,
+			"**/workspace": true
+		},
+		"files.watcherExclude": {
+			"**/.git": true,
+        	".repo/**": true,
+			"**/downloads": true,
+			"**/sstate-cache": true,
+			"**/cache": true,
+			"**/tmp/**": true,
+			"**/workspace": true
+		}
+	}
+}
