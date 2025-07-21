@@ -1,3 +1,4 @@
 build/
 sources/
 .kas_shell_history
+venv/
