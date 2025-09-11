@@ -55,6 +55,11 @@ repos:
     commit: eb828418264a49b8d00035cb3d7b12fcea3be801
     path: sources/meta-qt5
 
+  meta-swupdate:
+    url: https://github.com/sbabic/meta-swupdate.git
+    commit: 43ef322cbf5b91d84b007c343cf73e9b01699594
+    path: sources/meta-swupdate
+
   meta-arm:
     url: https://git.yoctoproject.org/git/meta-arm
     commit: f3640941c600d03ea53ce5b9254f0fead18f8bc0
