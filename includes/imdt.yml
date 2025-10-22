@@ -4,5 +4,5 @@ repos:
 
   meta-imdt-imx:
       url: https://github.com/imd-tec/meta-imdt-imx.git
-      commit: 475a108405d05250cab0fe08fd83e244c398f6d7
+      commit: 613e5ee0d8d186146d8bd7ee5ae14ffe16ddeb34
       path: sources/meta-imdt-imx
