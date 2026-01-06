@@ -28,7 +28,7 @@ repos:
 
   meta-freescale-3rdparty:
     url: https://github.com/Freescale/meta-freescale-3rdparty.git
-    commit: 1dfc65dd2006b51d156be5bcda0e3c72c936ad0a
+    commit: 6c063450d464eb2f380443c7d9af1b94ce9b9d75
     path: sources/meta-freescale-3rdparty
 
   meta-freescale-distro:
@@ -38,7 +38,7 @@ repos:
 
   meta-imx:
     url: https://github.com/nxp-imx/meta-imx.git
-    commit: 013670cd6a6a7363d824b33816e87a520745bca4
+    commit: e1ec1a20d573e3913f4ad90fa36546ed2bc87715 # tag: rel_imx_6.6.52_2.2.1
     layers:
       meta-imx-bsp:
       meta-imx-sdk:
@@ -47,13 +47,13 @@ repos:
 
   meta-clang:
     url: https://github.com/kraj/meta-clang.git
-    commit: eaa08939eaec9f620b14742ff3ac568553683034
+    commit: 2b7433611d80f6d0ee1b04156fa91fc73d3c2665 
     path: sources/meta-clang
 
-  meta-qt5:
-    url: https://github.com/meta-qt5/meta-qt5.git
-    commit: eb828418264a49b8d00035cb3d7b12fcea3be801
-    path: sources/meta-qt5
+  meta-qt6:
+    url: https://github.com/YoeDistro/meta-qt6
+    commit: 586a6cb5aec755803a3be3cec359baafe89d6432
+    path: sources/meta-qt6
 
   meta-swupdate:
     url: https://github.com/sbabic/meta-swupdate.git
@@ -62,7 +62,7 @@ repos:
 
   meta-arm:
     url: https://git.yoctoproject.org/git/meta-arm
-    commit: f3640941c600d03ea53ce5b9254f0fead18f8bc0
+    commit: 950a4afce46a359def2958bd9ae33fc08ff9bb0d
     layers:
       meta-arm:
       meta-arm-bsp:
