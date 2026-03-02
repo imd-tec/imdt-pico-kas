@@ -73,6 +73,7 @@ repos:
 # Append to local.conf
 local_conf_header:
   IMX_Header: |
+      DISTRO ?= "imdt-imx-xwayland"
       EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
       USER_CLASSES ?= "buildstats"
       PATCHRESOLVE = "noop"
