@@ -11,3 +11,6 @@ header:
 
 
 
+local_conf_header:
+  buildinfo: |
+    INHERIT += "image-buildinfo"

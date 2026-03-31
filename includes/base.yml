@@ -70,6 +70,9 @@ repos:
       meta-arm-toolchain:
     path: sources/meta-arm
 
+env:
+  IMDT_DISTRO_VERSION: "0.0.0" # Place holder - will be replaced by the actual tag in the build environment
+
 # Append to local.conf
 local_conf_header:
   IMX_Header: |

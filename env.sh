@@ -102,6 +102,12 @@ fi
 unset SCRIPT_DIR
 
 ################################################################################
+#                        Select kas container image version                    #
+################################################################################
+
+export KAS_IMAGE_VERSION="${KAS_IMAGE_VERSION:-4.7}"
+
+################################################################################
 #                           Set path build directory                           #
 ################################################################################
 
@@ -129,27 +135,31 @@ if $VERBOSE_ENABLED; then
 
     echo "--- IMDT KAS Environment ---"
 
-    if [ ! -z "${KAS_WORK_DIR}" ]; then
+    if [ -n "${KAS_WORK_DIR-}" ]; then
         echo "KAS_WORK_DIR=${KAS_WORK_DIR}"
     fi
 
-    if [ ! -z "${KAS_BUILD_DIR}" ]; then
+    if [ -n "${KAS_BUILD_DIR-}" ]; then
         echo "KAS_BUILD_DIR=${KAS_BUILD_DIR}"
     fi
 
-    if [ ! -z "${DL_DIR}" ]; then
+    if [ -n "${KAS_IMAGE_VERSION-}" ]; then
+        echo "KAS_IMAGE_VERSION=${KAS_IMAGE_VERSION}"
+    fi
+
+    if [ -n "${DL_DIR-}" ]; then
         echo "DL_DIR=${DL_DIR}"
     fi
 
-    if [ ! -z "${SSTATE_DIR}" ]; then
+    if [ -n "${SSTATE_DIR-}" ]; then
         echo "SSTATE_DIR=${SSTATE_DIR}"
     fi
 
-    if [ ! -z "${GITCONFIG_FILE}" ]; then
+    if [ -n "${GITCONFIG_FILE-}" ]; then
         echo "GITCONFIG_FILE=${GITCONFIG_FILE}"
     fi
 
-    if [ ! -z "${KAS_SSH_DIR}" ]; then
+    if [ -n "${KAS_SSH_DIR-}" ]; then
         echo "KAS_SSH_DIR=${KAS_SSH_DIR}"
     fi
 
