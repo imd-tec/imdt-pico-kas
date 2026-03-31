@@ -5,9 +5,8 @@ header:
     - includes/base.yml
     - includes/imdt.yml
     - machines/imdt-pico.yml
-    - distros/imdt-imx-xwayland.yml
     - includes/hailo.yml
-    - includes/nxp-demo-exp.yml
+#    - includes/nxp-demo-exp.yml
 
 
 
